@@ -57,7 +57,7 @@ Of the 905 nights tracked, only 50 were marked as *Bad*, 43 as *Good*, and the r
 
 ### Sleep Quality by Mood
 
-![alt text](mood-counts.svg "Mood Counts")
+![alt text](mood-counts.png "Mood Counts")
 
 Mood | Avg | Low | High
 --- | ---: | ---: | ---:
@@ -69,7 +69,7 @@ Again, the **Mood** statistic can be eliminated as untrustworthy, as I have had 
 
 ### Sleep Quality by Day of Week
 
-![alt text](quality-by-day-of-week.svg "Sleep Quality by Day of Week")
+![alt text](quality-by-day-of-week.png "Sleep Quality by Day of Week")
 
 Day of Week | Avg | Low
 --- | ---: | ---:
@@ -85,7 +85,7 @@ Tuesdays appear to be my worst night for sleep. Personally, I'm not shocked by t
 
 ### Activity vs. Sleep Quality
 
-![alt text](activity-vs-quality.svg "Activity vs. Sleep Quality")
+![alt text](activity-vs-quality.png "Activity vs. Sleep Quality")
 
 From the above chart, it does not appear that how much activity I had during the day affects my time in bed or the quality of my sleep.
 
