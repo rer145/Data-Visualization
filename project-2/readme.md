@@ -100,3 +100,66 @@ Student | 46 | 79.3% | 31.0%
 Filtering by date ranges, it's obvious that I got better sleep when unemployed. This is probably due to the high amounts of stress I dealt with on a daily basis at my previous job. With that being said, I should look into continuing this whole not having to work thing :)
 
 
+### What makes up a good night's sleep?
+
+Using the ```descibe()``` method we can quickly get a gauge on what sleep quality number can be considered a "good" nights sleep.  Here we see that the top 25% of sleep quality values are ones that are 85 or higher. Using this, rather than the arbitrary **Mood** factor, we can run queries against it to see what qualities are common in those good nights of sleep.
+
+```python
+data["Sleep quality"].describe()
+
+count    905.000000
+mean      74.630939
+std       14.969243
+min        9.000000
+25%       66.000000
+50%       75.000000
+75%       85.000000
+max      100.000000
+
+#filtering out just the good nights
+goodSleep = data.loc[data["Sleep quality"] >= 85]
+
+#plotting by day of week
+import matplotlib as mpl
+import numpy as np
+
+mpl.rc('xtick', labelsize=8)
+mpl.rc('ytick', labelsize=8)
+weekdays = ('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday')
+y_pos = range(len(weekdays))
+
+plt.bar(y_pos, goodSleep.groupby("Start Weekday")["Sleep quality"].mean(), align='center', alpha=0.5, color='blue')
+plt.xticks(y_pos, weekdays)
+plt.ylabel('Sleep Quality')
+plt.title("Sleep Quality by Day of Week (85% and Higher Nights)")
+plt.show()
+```
+
+After viewing only good night by the day of week, we can't see much of a difference, therefore, we can conclude that it is possible to get a good night sleep any day of the week.
+
+![alt text](good-nights-by-weekday.png "Sleep Quality by Day of Week")
+
+Perhaps the amount of time spent in bed can affect sleep quality? Here we have a simple scatter plot of the time in bed (in minutes) versus the quality of sleep.
+
+```python
+import matplotlib.pyplot as plt
+fig, ax = plt.subplots(1)
+for i in range(1):
+    x = goodSleep["Sleep quality"]
+    y = goodSleep["Time in bed (minutes)"]
+    ax.scatter(x,y,label=str(i))
+ax.set_title("Sleep Quality vs. Time in bed (minutes)")
+fig.savefig('quality-vs-time.png')
+```
+
+There does appear to be a very slight upward trend in the amount of time in bed when it comes to higher sleep quality. Not much, but the difference between 450 minutes in bed to 550 minutes in bed is about 15% increase in quality.
+
+![alt text](quality-vs-time.png "Sleep Quality vs. Time in Bed")
+
+Now, let's do the same plot looking at our activity for the day. Does more activity increase the quality of sleep?  This does not appear to be true.
+
+![alt text](quality-vs-activity.png "Sleep Quality vs. Activity")
+
+
+After all this collection of data, no definitive conclusion can be made as to what can control the quality of sleep. The only conclusion I have come up with is that I should sleep on it some more.
+
