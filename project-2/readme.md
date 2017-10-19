@@ -137,7 +137,7 @@ plt.show()
 
 After viewing only good night by the day of week, we can't see much of a difference, therefore, we can conclude that it is possible to get a good night sleep any day of the week.
 
-![alt text](good-nights-by-weekday.png "Sleep Quality by Day of Week")
+![alt text](good-nights-by-dayofweek.png "Sleep Quality by Day of Week")
 
 Perhaps the amount of time spent in bed can affect sleep quality? Here we have a simple scatter plot of the time in bed (in minutes) versus the quality of sleep.
 
