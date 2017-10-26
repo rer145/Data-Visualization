@@ -8,3 +8,5 @@ The ```project-1``` folder contains all the files for Project 1. Within that fol
 
 The ```project-2``` folder contains all the files for Project 2. Within that folder the readme file contains further information.
 
+The ```youtube``` folder contains notes and experiments while following along with YouTube videos.
+
