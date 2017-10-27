@@ -12,7 +12,7 @@ The data for this project has been collected via an app on my personal iPhone si
 
 Additionally, this app collects the quality of your sleep throughout the night. Using the iPhone's microphone, it can detect movements. Previously, the app used the accelerometer and measured the movement of your mattress, as it was placed hear your head. Using the microphone provides greater accurracy by both eliminating the movements of your partner and the firmness or softness of your mattress.
 
-The data was exported on October 10, 2017 via the application and is saved as ```sleepdata.csv```. Other data is collected via the app (such as geolocation, weather, snore data, etc.), but is not available through the data export within the app.
+The data was exported on October 10, 2017 via the application and is saved as ```sleepdata.csv```. Other data is collected via the app (such as geolocation, weather, snore data, etc.), but is not available through the data export within the app.  I reached out to the developers to see if the additional data is available, however, they responded that it is not, and there are no plans right now to include that in the export.
 
 ### Data Fields
 
@@ -37,7 +37,7 @@ Finally, we will need to manipulate some columns into proper data types to make 
 
 ### How is Sleep Quality Calculated?
 
-One of the most important fields in the data is the **Sleep Quality**. This number is proprietary to the Sleep Cycle application, so we should really try to understand it.  Thankfully, the developers of the application have put together a great support article that explains [https://support.sleepcycle.com/hc/en-us/articles/206704659-How-is-Sleep-Quality-calculated-](how the sleep quality is calculated).
+One of the most important fields in the data is the **Sleep Quality**. This number is proprietary to the Sleep Cycle application, so we should really try to understand it.  Thankfully, the developers of the app have put together a great support article that explains [https://support.sleepcycle.com/hc/en-us/articles/206704659-How-is-Sleep-Quality-calculated-](how the sleep quality is calculated).
 
 The sleep quality is based on four main measurements:
 1. Amount of time in bed
