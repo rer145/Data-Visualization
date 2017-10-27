@@ -35,6 +35,18 @@ Secondly, the **Wake up** field was not used until Junary 13, 2016. For the purp
 
 Finally, we will need to manipulate some columns into proper data types to make our queries and visualizations easier to manage. The **Sleep Quality** field will also be updated to remove the percentage sign (%).
 
+### How is Sleep Quality Calculated?
+
+One of the most important fields in the data is the **Sleep Quality**. This number is proprietary to the Sleep Cycle application, so we should really try to understand it.  Thankfully, the developers of the application have put together a great support article that explains [https://support.sleepcycle.com/hc/en-us/articles/206704659-How-is-Sleep-Quality-calculated-](how the sleep quality is calculated).
+
+The sleep quality is based on four main measurements:
+1. Amount of time in bed
+2. Amount of time in deep sleep
+3. Consistency of the sleep
+4. Amount of times fully awake
+
+Unfortunately, the only data available in the export we have available is the first one, the amount of time spent in bed. Because of this, we are unable to really correlate any other data in the export with the sleep quality. However, the exercise in doing so will prove to be valuable as we may find another piece of data that affects the sleep quality.
+
 ### Exploring the Data
 
 The file ```sleep-data.ipynb``` contains several queries against our data so we can determine how we want to visualize it. The ideas I explored are:
