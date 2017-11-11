@@ -11,7 +11,7 @@ The ```project-2``` folder contains all the files for Project 2. Within that fol
 The ```youtube``` folder contains notes and experiments while following along with YouTube videos.
 
 
-### Projects
+## Projects
 
 #### Project 1 - IRIS
 
