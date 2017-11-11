@@ -1,5 +1,5 @@
-# Data-Visualization
-Repo for DATA 550 at Mercyhurst University, Fall 2017 Term.
+# Data Visualization
+This repository contains all the code for the class DATA 550, taken at Mercyhurst University in Erie, Pennsylvania, during the Fall 2017 term.  
 
 ## Projects
 
