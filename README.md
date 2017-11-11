@@ -1,16 +1,6 @@
 # Data-Visualization
 Repo for DATA 550 at Mercyhurst University, Fall 2017 Term.
 
-## Folder Structure
-The ```lectures``` folder contains my notes while following along in the book "Learning Python Data Visualization" by Chad Adams. The examples are primarily a copy of what is in the textbook, with other minor modifications as I mess around.
-
-The ```project-1``` folder contains all the files for Project 1. Within that folder the readme file contains further information.
-
-The ```project-2``` folder contains all the files for Project 2. Within that folder the readme file contains further information.
-
-The ```youtube``` folder contains notes and experiments while following along with YouTube videos.
-
-
 ## Projects
 
 #### Project 1 - IRIS
@@ -27,7 +17,7 @@ For this project, we were allowed to select our own data set and perform visuali
 * [View on GitHub](https://github.com/rer145/Data-Visualization/tree/master/project-2)
 
 
-### Lecture & Book Code
+## Lecture & Book Code
 
 Description | GitHub | NbViewer
 --- | --- | ---
@@ -40,7 +30,7 @@ Pandas | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/lectu
 
 
 
-### YouTube Videos
+## YouTube Videos
 
 Description | YouTube Link | GitHub | NbViewer
 --- | --- | --- | ---
