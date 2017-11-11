@@ -11,7 +11,23 @@ The ```project-2``` folder contains all the files for Project 2. Within that fol
 The ```youtube``` folder contains notes and experiments while following along with YouTube videos.
 
 
-### Lecture code
+### Projects
+
+#### Project 1 - IRIS
+
+The purpose of this project was to get familiar with using [Kaggle](http://www.kaggle.com/) and to work with a real data set. The result was a kernel posted on Kaggle and write up of the code and results.
+
+* [View on GitHub](https://github.com/rer145/Data-Visualization/tree/master/project-1)
+* [View on Kaggle](https://www.kaggle.com/rer145/iris-experiments/)
+
+#### Project 2 - Sleep Data
+
+For this project, we were allowed to select our own data set and perform visualizations with it. I used data from my own life regarding my sleep habits. The data was collected via an app called [Sleep Cycle](https://www.sleepcycle.com/), and the purpose was to again visualize data and write up our conclusions.
+
+* [View on GitHub](https://github.com/rer145/Data-Visualization/tree/master/project-2)
+
+
+### Lecture & Book Code
 
 Description | GitHub | NbViewer
 --- | --- | ---
@@ -26,6 +42,6 @@ Pandas | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/lectu
 
 ### YouTube Videos
 
-File Name | YouTube Link | NbViewer
---- | --- | ---
-[matplotlib - sentdex YouTube Series.ipynb](https://github.com/rer145/Data-Visualization/blob/master/youtube/matplotlib%20-%20sentdex%20YouTube%20Series.ipynb) | [Playlist](https://www.youtube.com/playlist?list=PLQVvvaa0QuDfefDfXb9Yf0la1fPDKluPF) | [NbViewer](http://nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/youtube/matplotlib%20-%20sentdex%20YouTube%20Series.ipynb)
+Description | YouTube Link | GitHub | NbViewer
+--- | --- | --- | ---
+Matplotlib Tutorial Series | [Playlist](https://www.youtube.com/playlist?list=PLQVvvaa0QuDfefDfXb9Yf0la1fPDKluPF) | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/youtube/matplotlib%20-%20sentdex%20YouTube%20Series.ipynb) | [NbViewer](http://nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/youtube/matplotlib%20-%20sentdex%20YouTube%20Series.ipynb)
