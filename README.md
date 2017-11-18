@@ -21,19 +21,33 @@ For this project, we were allowed to select our own data set and perform visuali
 
 Description | GitHub | NbViewer
 --- | --- | ---
-Getting Started with pygal (Chapter 3) | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/lectures/notebooks/chapter-3.ipynb) | [NbViewer](nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/lectures/notebooks/chapter-3.ipynb)
-Advanced Charts (Chapter 4) | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/lectures/notebooks/chapter-4.ipynb) | [NbViewer](nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/lectures/notebooks/chapter-4.ipynb)
-World Maps (Chapters 4-5) | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/lectures/notebooks/world-maps.ipynb) | [NbViewer](nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/lectures/notebooks/world-maps.ipynb)
-Tweaking pygal (Chapter 5) | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/lectures/notebooks/chapter-5.ipynb) | [NbViewer](nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/lectures/notebooks/chapter-5.ipynb)
-Colors and Styles | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/lectures/notebooks/colors-and-styles.ipynb) | [NbViewer](nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/lectures/notebooks/colors-and-styles.ipynb)
-Matplotlib | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/lectures/notebooks/matplotlib.ipynb) | [NbViewer](nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/lectures/notebooks/matplotlib.ipynb)
-Matplotlib Axis Manipulation | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/lectures/notebooks/axes.ipynb) | [NbViewer](nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/lectures/notebooks/axes.ipynb)
-Pandas | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/lectures/notebooks/pandas.ipynb) | [NbViewer](nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/lectures/notebooks/pandas.ipynb)
-
-
+Getting Started with pygal (Chapter 3) | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/lectures/notebooks/chapter-3.ipynb) | [NbViewer](http://nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/lectures/notebooks/chapter-3.ipynb)
+Advanced Charts (Chapter 4) | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/lectures/notebooks/chapter-4.ipynb) | [NbViewer](http://nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/lectures/notebooks/chapter-4.ipynb)
+World Maps (Chapters 4-5) | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/lectures/notebooks/world-maps.ipynb) | [NbViewer](http://nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/lectures/notebooks/world-maps.ipynb)
+Tweaking pygal (Chapter 5) | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/lectures/notebooks/chapter-5.ipynb) | [NbViewer](http://nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/lectures/notebooks/chapter-5.ipynb)
+Colors and Styles | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/lectures/notebooks/colors-and-styles.ipynb) | [NbViewer](http://nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/lectures/notebooks/colors-and-styles.ipynb)
+Matplotlib | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/lectures/notebooks/matplotlib.ipynb) | [NbViewer](http://nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/lectures/notebooks/matplotlib.ipynb)
+Matplotlib Axis Manipulation | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/lectures/notebooks/axes.ipynb) | [NbViewer](http://nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/lectures/notebooks/axes.ipynb)
+Pandas | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/lectures/notebooks/pandas.ipynb) | [NbViewer](http://nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/lectures/notebooks/pandas.ipynb)
 
 ## YouTube Videos
 
 Description | YouTube Link | GitHub | NbViewer
 --- | --- | --- | ---
 Matplotlib Tutorial Series | [Playlist](https://www.youtube.com/playlist?list=PLQVvvaa0QuDfefDfXb9Yf0la1fPDKluPF) | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/youtube/matplotlib%20-%20sentdex%20YouTube%20Series.ipynb) | [NbViewer](http://nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/youtube/matplotlib%20-%20sentdex%20YouTube%20Series.ipynb)
+Intro to Bokeh | [Video](https://www.youtube.com/watch?v=NhTRrnLHTTc) | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/youtube/intro-to-bokeh.ipynb) | [NbViewer](http://nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/youtube/intro-to-bokeh.ipynb)
+Popular Visualization Libraries | [Video](https://www.youtube.com/watch?v=6Pzg-UY1VDg) | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/youtube/popular-libraries.ipynb) | [NbViewer](http://nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/youtube/popular-libraries.ipynb)
+
+## Kaggle Walkthroughs
+
+Description | Kaggle Link | GitHub | NbViewer
+--- | --- | --- | ---
+Interactive Bokeh Tutorial (Part 1) | [Kaggle](https://www.kaggle.com/kanncaa1/interactive-bokeh-tutorial-part-1/notebook) | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/kaggle/bokeh-1.ipynb) | [NbViewer](http://nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/kaggle/bokeh-1.ipynb)
+Interactive Bokeh Tutorial (Part 2) | [Kaggle](https://www.kaggle.com/kanncaa1/interactive-bokeh-tutorial-part-2/notebook) | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/kaggle/bokeh-2.ipynb) | [NbViewer](http://nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/kaggle/bokeh-2.ipynb)
+
+## Pandas Documentation
+Description | Doc Link | GitHub | NbViewer
+--- | --- | --- | ---
+Data Structures | [Documentation](http://pandas.pydata.org/pandas-docs/stable/dsintro.html) | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/pandas/01-data-structures.ipynb) | [NbViewer](http://nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/pandas/01-data-structures.ipynb)
+Missing Data |[Documentation](http://pandas.pydata.org/pandas-docs/stable/missing_data.html) | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/pandas/02-missing-data.ipynb) | [NbViewer](http://nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/pandas/02-missing-data.ipynb)
+Group By | [Documentation](http://pandas.pydata.org/pandas-docs/stable/groupby.html) | [GitHub](https://github.com/rer145/Data-Visualization/blob/master/pandas/03-groupby.ipynb) | [NbViewer](http://nbviewer.jupyter.org/github/rer145/Data-Visualization/blob/master/pandas/03-groupby.ipynb)
