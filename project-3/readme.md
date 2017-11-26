@@ -14,6 +14,8 @@ Year | Events Played | Wins | Top 10s | Missed Cuts | Win % | Cut %
 2016 | 28 | 1 | 7 | 6 | 3.5% | 21.4%
 2015 | 30 | 0 | 7 | 7 | 0.0% | 23.3%
 
+In an article in the November 2017 issue of Golf Digest, Thomas noted that "the big difference was working hard on my putting consistency" and that he "worked hard on putts over 10 feet". This project will investigate his targeted practice on putting and compare it with a variety of other stats that could have been a difference maker.  
+
 ## The Data
 
 The data for this project comes via the [PGA Tour Shotlink Intelligence System](https://www.pgatour.com/stats/shotlinkintelligence/overview.html). In August 2017, I applied for and was given access to the data available. The particular set of data I will be using is the Round Details. I downloaded the full data for the 2016 and 2017 seasons for every player and every official tournament. These files are semicolon delimited text files and are named ```rround-2016.txt``` and ```rround-2017.txt```.
@@ -57,21 +59,38 @@ Name: Round Score, dtype: float64
 
 Now we have a more accurate representation of his season, with those two rounds altering his average score by 0.7 strokes.
 
-### The Majors
-
-TBD.
+*show each plot with rest of field?*
 
 ## Off the Tee Analysis
+* accuracy
+* distance
+* combined driving
+
+## Approach Analysis
+* shots into the green from varying distances
+* break down by distance ranges and fairway vs. rough
 
 ## Short Game Analysis
+* 100yds and in
+* Not including putting
+* Separate out bunker play
+
+## Approach Analysis
+* plot gir accuracy from each distance set (combined rough and fairway)
+* compare rough vs. fairway
+* proximity to the hole
 
 ## Putting Analysis
+* 3, 4, 5, 6, 7, 8, 9 ft comparisons
+* long putting comparisons 10-15, 15-20, 20-25, > 25
 
 ## Against the Field Comparisons
+* compare 2017 with rest of field in major categories
+* no laying up comparison
 
 ## Miscellaneous Analysis
 
 * Compare tee times with performance
 * Compare course length with performance
 * No laying up
-* 
+* Majors
