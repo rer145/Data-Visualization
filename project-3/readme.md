@@ -59,7 +59,54 @@ Name: Round Score, dtype: float64
 
 Now we have a more accurate representation of his season, with those two rounds altering his average score by 0.7 strokes.
 
-*show each plot with rest of field?*
+
+## Comparing Seasons
+
+The file ```stats-compare.ipynb``` contains a breakdown of several key statistics and compares Justin's 2017 and 2016 seasons, along with the rest of the field in 2017. From this file, we can quickly see which statistics showed improvements, and which showed declines. Items in **bold** denote a significant change.
+
+Statistic | 2017 | 2016 | Field | Better/Worse
+--- | ---: | ---: | ---: | ---
+Driving Accuracy | 54.9% | 53.9% | 60.5% | Better
+Driving Average | 299.4 yds | 293.5 yds | 284.9 yds | **Better**
+Proximity from 50-75 yds | 16.9 ft | 14.6 ft | 17.5 ft | Worse
+Proximity from 75-100 yds | 14.1 ft | 19.8 ft | 18.1 ft | **Better**
+Proximity from 100-125 yds | 16.3 ft | 18.7 ft | 20.4 ft | Better
+Proximity from 50-125 yds | 15.4 ft | 18.4 ft | 19.3 ft | **Better**
+Proximity from 125-150 yds | 21.6 ft | 22.0 ft | 23.4 ft | Better
+Proximity from 150-175 yds | 23.7 ft | 24.9 ft | 27.9 ft | Better
+Proximity from 175-200 yds | 32.7 ft | 30.7 ft | 33.6 ft | Worse
+Proximity from > 200 yds | 46.2 ft | 42.7 ft | 50.6 ft | **Worse**
+Greens in Regulation | 67.1% | 65.6% | 64.9% | Better
+Scrambling Success | 61.8% | 55.8% | 58.5% | **Better**
+Scrambling Proximity | 8.1 ft | 8.4 ft | 8.7 ft | Worse
+Scrambling from Rough | 61.9% | 48.1% | 55.5% | **Better**
+Scrambling from Fringe | 83.8% | 94.4% | 89.7% | **Worse**
+Scrambling from > 30 yds | 40.9% | 25.9% | 28.2% | **Better**
+Scrambling from 20-30 yds | 50.3% | 46.2% | 51.0% | Better
+Scrambling from 10-20 yds | 65.4% | 66.8% | 64.0% | Worse
+Scrambling from < 10 yds | 80.6% | 81.3% | 85.0% | Worse
+Putts per Hole | 1.56 | 1.62 | 1.61 | Better
+Putts per Hole (GIR) | 1.13 | 1.16 | 1.15 | Better
+One Putt Average | 43.6% | 37.8% | 38.8% | **Better**
+Three Putt Avoidance | 2.6% | 3.0% | 3.1% | Better
+Putts from 3 ft | 99.5% | 99.5% | 99.4% | No Change
+Putts from 4 ft | 92.2% | 92.8% | 91.8% | Worse
+Putts from 5 ft | 82.2% | 82.7% | 80.9% | Worse
+Putts from 6 ft | 62.3% | 67.6% | 70.4% | Worse
+Putts from 7 ft | 56.8% | 59.4% | 60.9% | Worse
+Putts from 8 ft | 59.2% | 49.9% | 53.4% | **Better**
+Putts from 9 ft | 44.8% | 55.4% | 45.5% | **Worse**
+Putts from 10 ft | 48.3% | 42.5% | 41.4% | Better
+Putts from < 10 ft | 87.6% | 88.7% | 87.7% | Worse
+Putts from > 10 ft | 22.5% | 17.0% | 18.7% | **Better**
+Putts from 4-8 ft | 69.2% | 67.5% | 68.7% | Better
+Putts from 10-15 ft | 33.8% | 24.4% | 30.4% | **Better**
+Putts from 15-20 ft | 27.4% | 21.3% | 18.6% | **Better**
+Putts from 20-25 ft | 16.4% | 11.8% | 12.3% | **Better**
+Putts from > 25 ft | 7.6% | 4.7% | 5.2% | **Better**
+
+
+*TODO: show each plot with rest of field?*
 
 ## Off the Tee Analysis
 * accuracy
@@ -86,7 +133,6 @@ Now we have a more accurate representation of his season, with those two rounds 
 
 ## Against the Field Comparisons
 * compare 2017 with rest of field in major categories
-* no laying up comparison
 
 ## Miscellaneous Analysis
 
