@@ -109,34 +109,45 @@ Putts from > 25 ft | 7.6% | 4.7% | 5.2% | **Better**
 *TODO: show each plot with rest of field?*
 
 ## Off the Tee Analysis
-* accuracy
-* distance
-* combined driving
+
+Justin Thomas's driving average improved by nearly 6 yards in 2017. For the courses Justin played in 2017 versus 2016, the average yardage of the courses went up by 15 yards, so this increased distance likely contributed to his success.
+
+![Driving Average](driving-average.png)
 
 ## Approach Analysis
-* shots into the green from varying distances
-* break down by distance ranges and fairway vs. rough
+
+Approach proximity is the measurement of how close to the hole the ball ends up on the approach shot. The approach shot is defined as the shot number that is 2 strokes less than par.  So, for a par 3 hole, the approach shot is the 1st shot. On a par 4 hole, the approach shot is the 2nd shot, and lastly, on a par 5 hole, the approach shot is the 3rd shot. 
+
+In 2017, Justin Thomas increased his approach proximity from 75-100 yards by over 5 feet. This results in much shorter birdie putts. From 2003 to 2012, a PGA Tour professional would make a 5 foot putt 77% of the time.  A 10 foot putt went in only 40% of the time. By reducing how far you have to putt for a birdie, you increase your chances of making it.  This is definitely shown in the stats where Thomas increased his one-putt average from 37.8% to 43.6%.
+
+![Approach Proximity](approach-proximity.png)
 
 ## Short Game Analysis
-* 100yds and in
-* Not including putting
-* Separate out bunker play
 
-## Approach Analysis
-* plot gir accuracy from each distance set (combined rough and fairway)
-* compare rough vs. fairway
-* proximity to the hole
+Hitting a green in regulation (GIR) means that your approach shot ended up on the green and that your first putt will be for birdie. This helps a golfer's chances of making a birdie since having to use a club other than a putter to get the ball in the hole can be much more difficult than using a putter.  A missed GIR means that the golfer will have to "scramble" to make par. This means having to get the ball in the hole in two shots or less and ending up with bar. This typically requires a short pitch shot or chip shot and then one putt. Getting that short shot close to the hole greatly increases the chances of making the putt for par.
+
+In 2017, Justin Thomas got considerably better at scrambling from over 30 yards, which lifted his overall scrambling success rate. Interestingly enough, he got worse when having to scramble from the fringe (e.g. short grass surrounding the green) versus a massive improvement from the rough (e.g. longer, thicker, un-mowed grass).
+
+These shots from over 30 yards and saving par was leaps and bounds better than 2016 and the rest of the field (41% compared to 26-28% success). Being able to save par from a missed GIR definitely is a competitive advantage.
+
+![Scrambling Success](scrambling-success.png)
 
 ## Putting Analysis
-* 3, 4, 5, 6, 7, 8, 9 ft comparisons
-* long putting comparisons 10-15, 15-20, 20-25, > 25
 
-## Against the Field Comparisons
-* compare 2017 with rest of field in major categories
+For putts between 3 feet and 10 feet, Thomas improved at 8 feet by almost 10%, however, at 9 feet, he declined by roughly the same (55% to 44%). This does not appear to be a factor between seasons.
+
+![One Putt Performance by Distance](one-putt-by-distance.png)
+
+However, when we look at putts over 10 feet, we see some major improvements. Thomas improved in every category outside of 10 feet. Considering the a one putt from 8 feet is only 50%, being able to make putts longer than that can greatly help compared to other golfers.
+
+![One Putt Performance > 10 ft](one-putts-by-distance-long.png)
 
 ## Miscellaneous Analysis
 
-* Compare tee times with performance
-* Compare course length with performance
-* No laying up
-* Majors
+Another factor for scores could be when the players tee off during the day. Tee times usually range between 6am and 5pm. Thomas tends to play his best golf when he tees off 12pm and 1pm.
+
+![Tee Time Scores](tee-time-scores.png)
+
+## Conclusion
+
+Using these visualizations, we can see that Justin Thomas really improved his long putting from 2016 to 2017. This follows his comments in Golf Digest where he said he focused on that a lot.

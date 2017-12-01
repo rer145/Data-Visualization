@@ -16,6 +16,11 @@ For this project, we were allowed to select our own data set and perform visuali
 
 * [View on GitHub](https://github.com/rer145/Data-Visualization/tree/master/project-2)
 
+#### Project 3 - What Makes a PGA Player of the Year Season?
+
+This project investigates the statistical categories that 2017 PGA Tour Player of the Year Justin Thomas improved or declined in against his 2016 season. His success in 2017 was much higher than in 2016, so this project visualizes which statistics improved in hopes of determining what the keys to his success was in 2017.
+
+* [View on GitHub](https://github.com/rer145/Data-Visualization/tree/master/project-3) 
 
 ## Lecture & Book Code
 
