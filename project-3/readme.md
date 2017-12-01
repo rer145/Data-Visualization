@@ -106,8 +106,6 @@ Putts from 20-25 ft | 16.4% | 11.8% | 12.3% | **Better**
 Putts from > 25 ft | 7.6% | 4.7% | 5.2% | **Better**
 
 
-*TODO: show each plot with rest of field?*
-
 ## Off the Tee Analysis
 
 Justin Thomas's driving average improved by nearly 6 yards in 2017. For the courses Justin played in 2017 versus 2016, the average yardage of the courses went up by 15 yards, so this increased distance likely contributed to his success.
